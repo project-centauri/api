@@ -1,0 +1,31 @@
+{
+  "name": "centauriapi",
+  "version": "0.0.1",
+  "description": "Centauri's Project application programming interface",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node build/server",
+    "dev": "nodemon",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/project-centauri/api.git"
+  },
+  "keywords": [
+    "api",
+    "centauri"
+  ],
+  "author": "Ookldev; Kimmypracha",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/project-centauri/api/issues"
+  },
+  "homepage": "https://github.com/project-centauri/api#readme",
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/helmet": "0.0.43",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0"
+  }
+}
